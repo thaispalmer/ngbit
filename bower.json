@@ -1,0 +1,23 @@
+{
+  "name": "ngbit",
+  "description": "AngularJS 1.x directives for component-based app building",
+  "main": "ngbit-0.0.0.min.js",
+  "authors": [
+    "Athos Palmer <contato@athospalmer.com.br>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angularjs",
+    "library",
+    "modular",
+    "component"
+  ],
+  "homepage": "https://github.com/thoso/ngbit",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

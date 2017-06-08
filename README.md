@@ -11,9 +11,9 @@ This module contain a collection of directives to be used for building a compone
 
 ## Usage:
 
-Include `ngbit-0.0.0.min.js` in your application.
+Include `ngbit-0.0.1.min.js` in your application.
 
-    <script src="components/ngbit/ngbit-0.0.0.min.js"></script>
+    <script src="components/ngbit/ngbit-0.0.1.min.js"></script>
 
 And include the module `ngBit` as an dependency to your module.
 

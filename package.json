@@ -1,6 +1,6 @@
 {
   "name": "ngbit",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "AngularJS 1.x directives for component-based app building",
   "main": "ngbit-0.0.0.min.js",
   "scripts": {
@@ -24,5 +24,12 @@
   "bugs": {
     "url": "https://github.com/thoso/ngbit/issues"
   },
-  "homepage": "https://github.com/thoso/ngbit#readme"
+  "homepage": "https://github.com/thoso/ngbit#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-html2js": "^0.3.8"
+  }
 }

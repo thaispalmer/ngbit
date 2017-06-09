@@ -1,0 +1,18 @@
+<div class="form-group" ng-class="{'has-error': $ctrl.formCtrl.form[$ctrl.name].$invalid}">
+    <label class="control-label" for="{{$ctrl.inputId}}" ng-if="$ctrl.label">{{$ctrl.label}}</label>
+    <input class="form-control"
+           id="{{$ctrl.inputId || $ctrl.name}}"
+           name="{{$ctrl.name}}"
+           type="{{$ctrl.type || 'text'}}"
+           placeholder="{{$ctrl.placeholder}}"
+           minlength="{{$ctrl.minlength}}"
+           maxlength="{{$ctrl.maxlength}}"
+           ng-model="$ctrl.model"
+           ng-required="$ctrl.ngRequired"
+           ng-minlength="$ctrl.ngMinlength"
+           ng-maxlength="$ctrl.ngMaxlength"
+           ng-pattern="$ctrl.ngPattern"
+           ng-change="$ctrl.ngChange"
+           ng-trim="$ctrl.ngTrim"/>
+    <span class="help-block" ng-messages="$ctrl.formCtrl.form[$ctrl.name].$error" ng-transclude></span>
+</div>

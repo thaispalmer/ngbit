@@ -18,9 +18,10 @@ module.exports = function(grunt) {
          */
         html2js: {
             options: {
+                useStrict: true,
                 module: 'ngBit.templates',
                 rename: function (moduleName) {
-                    return moduleName.replace('../app/', '');
+                    return 'ngBit/' + moduleName.split('/').pop();
                 }
             },
             templates: {

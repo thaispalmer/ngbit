@@ -1,7 +1,7 @@
 {
   "name": "ngbit",
   "description": "AngularJS 1.x directives for component-based app building",
-  "main": "ngbit-0.0.1.js",
+  "main": "ngbit-0.0.2.js",
   "authors": [
     "Athos Palmer <contato@athospalmer.com.br>"
   ],

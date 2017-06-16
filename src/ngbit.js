@@ -5,7 +5,8 @@
         'ngBit.templates',
         'ngBit.bs-text-input',
         'ngBit.bs-form',
-        'ngBit.ng-messages'
+        'ngBit.ng-messages',
+        'ngBit.threejs-panorama'
     ]);
 
 })();

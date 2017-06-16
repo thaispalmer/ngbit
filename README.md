@@ -11,9 +11,9 @@ This module contain a collection of directives to be used for building a compone
 
 ## Usage:
 
-Include `ngbit-0.0.2.min.js` in your application.
+Include `ngbit-0.0.3.min.js` in your application.
 
-    <script src="components/ngbit/ngbit-0.0.2.min.js"></script>
+    <script src="components/ngbit/ngbit-0.0.3.min.js"></script>
 
 And include the module `ngBit` as an dependency to your module.
 
@@ -35,6 +35,7 @@ This module has no external dependencies except AngularJS itself.
 ### Other components:
 
   * **ng-bit-ng-messages:** A collection of [ngMessages](https://docs.angularjs.org/api/ngMessages/directive/ngMessages) ready to use with multilingual support.
+  * **ng-bit-threejs-panorama:** Equirectangular panorama projection using [three.js](https://threejs.org/) 3D library. 
 
 - - -
 

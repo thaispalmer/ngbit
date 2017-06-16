@@ -1,8 +1,8 @@
 {
   "name": "ngbit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "AngularJS 1.x directives for component-based app building",
-  "main": "ngbit-0.0.2.js",
+  "main": "ngbit-0.0.3.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

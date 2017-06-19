@@ -41,4 +41,4 @@ This module has no external dependencies except AngularJS itself.
 
 ## Component Documentation:
 
-Todo.
+Check out the `examples` folder.

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ng-bit-threejs-panorama</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+<script src="../ngbit-0.0.3.js"></script>
+<script>
+    var app = angular.module('app', ['ngBit']);
+</script>
+</head>
+<body ng-app="app">
+<div class="container">
+
+<h1>ng-bit-threejs-panorama</h1>
+<p>This component can be used to create a equirectangular panorama visualization using the three.js library.</p>
+
+<hr/>
+
+<h2>Example</h2>
+<ng-bit-threejs-panorama picture="assets/panorama.png"></ng-bit-threejs-panorama>
+<p><small>Panorama picture by <a href="https://www.flickr.com/photos/mantisofdestiny/sets/72157633474242372/" target="_blank">Mantis of Destiny</a>.</small></p>
+
+<hr/>
+
+<h2>Source</h2>
+<pre>
+&lt;ng-bit-threejs-panorama
+    picture="assets/panorama.png"&gt;
+&lt;/ng-bit-threejs-panorama&gt;
+</pre>
+
+<hr/>
+
+<h2>Parameters</h2>
+<ul>
+    <li><strong>picture:</strong> string - Equirectangular panorama image.</li>
+    <li><strong>library-url:</strong> string - The URL for the three.js library to be automatically loaded when auto-load is true. Optional.</li>
+    <li><strong>width:</strong> integer - Width of the panorama viewer <i>(default: 500)</i></li>
+    <li><strong>height:</strong> integer - Height of the panorama viewer. <i>(default: 300)</i></li>
+    <li><strong>auto-load:</strong> boolean - Automatically loads the three.js library <i>(default: true)</i></li>
+    <li><strong>auto-spin:</strong> boolean - Automatically spins the panorama. <i>(default: true)</i></li>
+    <li><strong>speed:</strong> integer - The speed for the auto-spin. <i>(default: 1)</i></li>
+    <li><strong>draggable:</strong> boolean - Makes the panorama visualization draggable. <i>(default: true)</i></li>
+    <li><strong>disable-zoom:</strong> boolean  -Disables the mouse wheel zooming. <i>(default: false)</i></li>
+</ul>
+
+</div>
+</body>
+</html>

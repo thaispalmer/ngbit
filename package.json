@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thoso/ngbit.git"
+    "url": "git+https://github.com/thaispalmer/ngbit.git"
   },
   "keywords": [
     "angularjs",
@@ -17,14 +17,14 @@
     "component"
   ],
   "author": {
-    "name": "Athos Palmer",
-    "email": "contato@athospalmer.com.br"
+    "name": "Thais Palmer",
+    "email": "thais@safik.com.br"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thoso/ngbit/issues"
+    "url": "https://github.com/thaispalmer/ngbit/issues"
   },
-  "homepage": "https://github.com/thoso/ngbit#readme",
+  "homepage": "https://github.com/thaispalmer/ngbit#readme",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-concat": "^1.0.1",

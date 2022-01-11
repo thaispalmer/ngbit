@@ -3,7 +3,7 @@
   "description": "AngularJS 1.x directives for component-based app building",
   "main": "ngbit-0.0.3.js",
   "authors": [
-    "Athos Palmer <contato@athospalmer.com.br>"
+    "Thais Palmer <thais@safik.com.br>"
   ],
   "license": "MIT",
   "keywords": [
@@ -12,7 +12,7 @@
     "modular",
     "component"
   ],
-  "homepage": "https://github.com/thoso/ngbit",
+  "homepage": "https://github.com/thaispalmer/ngbit",
   "ignore": [
     "**/.*",
     "node_modules",
